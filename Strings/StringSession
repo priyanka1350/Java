@@ -1,0 +1,46 @@
+
+public class StringSession{
+
+    public static void main(String[] args) {
+        String greeting = "Hello World";
+        String Prog_lang = "Java";
+        String CollegeName ="JNNCE";
+        String city = "Bangalore";
+        String country = "India";
+        
+
+        
+        System.out.println("Original Greeting: " + greeting);
+        System.out.println("Prog_lang: " + Prog_lang);
+        System.out.println("CollegeName: " + CollegeName);
+       
+        System.out.println("City: " + city);
+        System.out.println("Country: " + country);
+        
+        String city1 = new String ("Bhadravathi");
+        String Prog_lang1 = new String("python");
+        String CollegeName1 =new String("Sir M V");
+
+        System.out.println();
+		System.out.println(city .equals(city ));
+		System.out.println(Prog_lang.equals(Prog_lang1));
+        System.out.println(CollegeName .equals(CollegeName1 ));
+	
+        
+        char[] charArray =country.toCharArray();
+		String value = "";
+		for( int i=charArray.length-1;i>=0;i--) {
+			value = value + charArray[i];
+		     System.out.println(value);
+		}
+		char[] charArray1 = CollegeName1 .toCharArray();
+		String value1 = "";
+		for( int i=charArray1.length-1;i>=0;i--) {
+			value1 = value1 + charArray1[i];
+		     System.out.println(value1);
+
+    }
+    }
+}
+
+
