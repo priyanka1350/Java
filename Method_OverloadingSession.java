@@ -1,4 +1,4 @@
-// Source code is decompiled from a .class file using FernFlower decompiler.
+
 public class Method_OverloadingSession {
    public Method_OverloadingSession() {
    }
