@@ -1,0 +1,40 @@
+ class Vehical{
+
+    String brand;
+    String color;
+    int Price;
+  
+    
+    public void Start(){
+        System.out.println("Vehical Starts");
+    
+    }
+}
+     class Car extends Vehical{
+    public void Stop(){
+        System.out.println("Vehical Stop");
+    }
+}
+    public class SingleInheritance{
+        public static void main(String[] args) {
+            Car car= new Car();
+            car.brand = "BMW";
+            car.color = "Black";
+            car.Price = 100000;
+            System.out.println("Car Name: " + car.brand);
+            System.out.println("Car Color: " + car.color);
+            System.out.println("Car Price: $" + car.Price);
+            
+            car.Start();
+            car.Stop();
+        }
+
+
+
+
+
+
+
+    }
+ 
+
