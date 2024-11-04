@@ -1,0 +1,16 @@
+public class Staff {
+    String Name;
+    int age;
+    int ID;
+    int Experiance;
+    
+    
+    public Staff(String Name, int age, int ID,  int Experiance) {
+        this.Name = Name;
+        this.age = age;
+        this.ID= ID;
+        this.Experiance= Experiance;
+    }
+}
+        
+    
